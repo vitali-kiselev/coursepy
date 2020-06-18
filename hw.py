@@ -1,10 +1,12 @@
-x = [5, 90, 3, 2, -7, 0]
-lst = []
+lst = [165, 163, 160, 160, 157, 157, 155, 154]
 
-for i in range(len(x)):
-    lst.append(min(x))
-    x.remove(min(x))
-print(lst)
+x = int(input())
+
+rank = 0
+
+while rank < len(lst) and lst[rank] >= x:
+    rank += 1
+print(rank+1)
 
 
 
