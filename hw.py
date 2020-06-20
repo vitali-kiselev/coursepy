@@ -1,12 +1,24 @@
-lst = [165, 163, 160, 160, 157, 157, 155, 154]
+a = 1000
+n = 20
+years = 5
+def bank(a, n, years):
+    a = a + (a * (n / 100)) * years
+    return a
+x = bank(a, n, years)
+print(x)
 
-x = int(input())
 
-rank = 0
 
-while rank < len(lst) and lst[rank] >= x:
-    rank += 1
-print(rank+1)
+
+
+
+
+
+
+
+
+
+
 
 
 
