@@ -18,6 +18,7 @@ class MyClass():
         for k, v in dict.items():
             if dict[k] == 1:
                 print(k)
+                break
         result = None
 
         return result # here we retrun result
