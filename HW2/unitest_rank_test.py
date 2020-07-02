@@ -10,4 +10,11 @@ class RankTest(unittest.TestCase):
 
         self.assertEqual(test_result, Rank.MyClass.rank(test_var))
 
+    def test_rank_2(self):
+        i = 169
+        test_var_2 = ([165, 163, 160, 160, 157, 157, 155, 154], i)
+        test_result_2 = test_var_[i]
+
+        self.assertEqual(test_result_2, Rank.MyClass.rank(test_var_2))
+
 
