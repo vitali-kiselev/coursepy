@@ -1,4 +1,7 @@
-names = ["Alex", "Jacob", "Mark", "Max", "Petter"]
-def likes(*names: str) -> str:
+var = ["Alex", "Jacob", "Mark", "Max", "Petter"]
+def likes(var: str) -> str:
+
+
+
 
 
