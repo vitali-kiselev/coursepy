@@ -1,31 +1,4 @@
-Меня зовут Иван, я родился в городе Мозырь в 2000 году. Учусь в школе RoboCode. Моё главное увлечение – это футбол. Моя любимая футбольная команда – это Реал Мадрид. Мой любимый футболист – Роналду.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+import calendar
+a = calendar.LocaleHTMLCalendar(locale='Russian_Russia')
+with open('calendar.html', 'w') as g:
+    print(a.formatyear(2014, width=4), file=g)
